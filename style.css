@@ -10,10 +10,10 @@ h1 {
 	font-size: 2.4rem;
 	line-height: 1.2;
 	font-weight: 400;
-	color: #333;
+	color: pink;
 	margin: 0;
 	margin-bottom: 1rem;
-	border-bottom: 1px solid #bababa;
+	border-bottom: 1px solid pink;
 	padding-bottom: .5rem;
 }
 p {
@@ -60,7 +60,7 @@ p {
 }
 #product-photo {
 	width: 100%;
-  	box-shadow: 0 16px 20px 0 brown;
+  	box-shadow: 0 16px 20px 0 yellow;
 }
 .selected {
 	border-color: #000;
@@ -84,4 +84,10 @@ p {
 	.photo {
 		float: left;
 	}
+}
+body{
+  background-color:grey;
+}
+p {
+  color: yellow
 }
